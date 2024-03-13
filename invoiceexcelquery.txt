@@ -1,0 +1,7 @@
+SELECT bill.id,bill.bill_number,verification_job_details.applicant_name,verification_jobs.product_type,
+IFNULL( (SELECT count(verification_surveys.id) as visits FROM verification_surveys WHERE verification_surveys.job_id=verification_jobs.id AND verification_surveys.status=1 )  ,0) as visits
+FROM `bill`
+LEFT JOIN verification_jobs ON bill.bill_number=verification_jobs.job_id
+LEFT JOIN verification_job_details ON verification_jobs.id=verification_job_details.job_id
+LEFT JOIN verification_surveys ON verification_jobs.id=verification_surveys.job_id
+WHERE invoice_id ='KGT/VER/BIPL/3/03/2022' GROUP BY bill.bill_number;

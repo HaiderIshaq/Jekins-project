@@ -1,0 +1,117 @@
+a{
+    text-decoration: none;
+}
+
+h5{
+    font-weight: 500;
+}
+
+.dataTables_wrapper{
+    margin-top:12px;
+}
+
+//Sidebar Icon Styling
+.item::after {
+    content: "";
+    }
+    
+td{
+    font-size: 13px;
+}
+//Dashboard Buttons Style    
+.job-button{
+    /* Red */
+    background: linear-gradient(90deg, #b72424 25%, #ff4a4a 0);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12); 
+    border:none
+}
+
+.job-button2{
+    /* Blue */
+
+    background: linear-gradient(90deg, #116dab 25%, #0099ff 0);
+
+}
+
+.job-button3{
+    /* Green */
+
+    background: linear-gradient(90deg, #258c7e 25%, #41ccba 0);
+
+}
+.job-button4{
+    /* Purple */
+
+    background: linear-gradient(90deg, #7758b5 25%, #a683eb 0);
+
+}
+
+
+.job-button5{
+    /* Red */
+    background: linear-gradient(90deg, #b72424 25%, #ff4a4a 0);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12); 
+}
+
+.job-button6{
+    /* Blue */
+
+    background: linear-gradient(90deg, #116dab 25%, #0099ff 0);
+
+}
+
+.job-button7{
+    /* Green */
+
+    background: linear-gradient(90deg, #258c7e 25%, #41ccba 0);
+
+}
+.job-button8{
+    /* Purple */
+
+    background: linear-gradient(90deg, #7758b5 25%, #a683eb 0);
+
+}
+
+.job-button9{
+    /* Red */
+    background: linear-gradient(90deg, #b72424 25%, #ff4a4a 0);
+    box-shadow: 0 2px 4px -1px rgba(0,0,0,.2), 0 4px 5px 0 rgba(0,0,0,.14), 0 1px 10px 0 rgba(0,0,0,.12); 
+}
+
+.job-button10{
+    /* Blue */
+
+    background: linear-gradient(90deg, #116dab 25%, #0099ff 0);
+
+}
+
+.job-button11{
+    /* Green */
+
+    background: linear-gradient(90deg, #258c7e 25%, #41ccba 0);
+
+}
+
+
+.job-head{
+
+ font-size:17px;
+position: relative;
+// bottom: 5px;
+// margin-left: 15px;
+// left: 10px;
+letter-spacing:2px;
+}
+
+
+
+/* Input  css */
+.input-sm {
+    height: 30px;
+    padding: 5px 10px;
+    font-size: 12px;
+    line-height: 1.5;
+    border-radius: 3px;
+    }
+    /* Input css */

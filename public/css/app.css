@@ -1,0 +1,108 @@
+@import url(https://fonts.googleapis.com/css?family=Nunito);a {
+  text-decoration: none;
+}
+
+h5 {
+  font-weight: 500;
+}
+
+.dataTables_wrapper {
+  margin-top: 12px;
+}
+
+.item::after {
+  content: "";
+}
+
+td {
+  font-size: 13px;
+}
+
+.job-button {
+  /* Red */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #b72424), color-stop(0, #ff4a4a));
+  background: linear-gradient(90deg, #b72424 25%, #ff4a4a 0);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+  border: none;
+}
+
+.job-button2 {
+  /* Blue */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #116dab), color-stop(0, #0099ff));
+  background: linear-gradient(90deg, #116dab 25%, #0099ff 0);
+}
+
+.job-button3 {
+  /* Green */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #258c7e), color-stop(0, #41ccba));
+  background: linear-gradient(90deg, #258c7e 25%, #41ccba 0);
+}
+
+.job-button4 {
+  /* Purple */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #7758b5), color-stop(0, #a683eb));
+  background: linear-gradient(90deg, #7758b5 25%, #a683eb 0);
+}
+
+.job-button5 {
+  /* Red */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #b72424), color-stop(0, #ff4a4a));
+  background: linear-gradient(90deg, #b72424 25%, #ff4a4a 0);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.job-button6 {
+  /* Blue */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #116dab), color-stop(0, #0099ff));
+  background: linear-gradient(90deg, #116dab 25%, #0099ff 0);
+}
+
+.job-button7 {
+  /* Green */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #258c7e), color-stop(0, #41ccba));
+  background: linear-gradient(90deg, #258c7e 25%, #41ccba 0);
+}
+
+.job-button8 {
+  /* Purple */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #7758b5), color-stop(0, #a683eb));
+  background: linear-gradient(90deg, #7758b5 25%, #a683eb 0);
+}
+
+.job-button9 {
+  /* Red */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #b72424), color-stop(0, #ff4a4a));
+  background: linear-gradient(90deg, #b72424 25%, #ff4a4a 0);
+  box-shadow: 0 2px 4px -1px rgba(0, 0, 0, 0.2), 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12);
+}
+
+.job-button10 {
+  /* Blue */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #116dab), color-stop(0, #0099ff));
+  background: linear-gradient(90deg, #116dab 25%, #0099ff 0);
+}
+
+.job-button11 {
+  /* Green */
+  background: -webkit-gradient(linear, left top, right top, color-stop(25%, #258c7e), color-stop(0, #41ccba));
+  background: linear-gradient(90deg, #258c7e 25%, #41ccba 0);
+}
+
+.job-head {
+  font-size: 17px;
+  position: relative;
+  letter-spacing: 2px;
+}
+
+/* Input  css */
+
+.input-sm {
+  height: 30px;
+  padding: 5px 10px;
+  font-size: 12px;
+  line-height: 1.5;
+  border-radius: 3px;
+}
+
+/* Input css */
+
